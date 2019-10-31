@@ -1,0 +1,31 @@
+tap migration
+php artisan make:migrate
+
+tao model va migration
+php artisan make:model ten --migration
+
+tao bang
+php artisan migrate
+
+them du lieu vao bang
+php artisan db:seed
+
+tao controller
+php artisan make:controller ThanhVienController --plain            plain: r?ng
+
+tao request
+php artisan make:request ThanhVienRequest
+
+list routes
+php artisan routes
+php artisan route:list
+
+them cot migration
+php artisan make:migration alter_column_pro_content_and_pro_title_seo_in_table_products
+
+
+
+//bai toan
+//nếu hai người cùng mua 1 cái sản phẩm mà cái số lượng có 5 sản phẩm
+//mỗi người mua 3 lần, lúc người ta mua vẫn thỏa mãn cái điều kiện ban đầu
+//lúc xử lý mình trừ này, nếu mình không kiểm tra thì nó sẽ bị âm.
